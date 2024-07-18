@@ -1,5 +1,5 @@
 import React from 'react';
-function txt() {
+function Txt() {
     return(
         <div>
             <h1>Bienvenidos</h1>
@@ -7,4 +7,4 @@ function txt() {
         </div>
     );
 }
-export default txt;
+export default Txt;

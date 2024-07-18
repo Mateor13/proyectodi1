@@ -1,7 +1,7 @@
 import React from 'react';
-function Boton() {
+function Btn() {
 return(
     <button className="btn">Aceptar</button>
 );
 }
-export default Boton;
+export default Btn;
