@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Btn from './componentes/boton.js';
+import Txt from './componentes/texto.js';
+import Messi from './imagenes/a3a34890-7f03-11ed-a7e9-6563dc325d4d.jpeg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Txt/>
+        <img src={Messi} className='Messi' alt='messi'/>
+        <Btn/>
       </header>
     </div>
   );
